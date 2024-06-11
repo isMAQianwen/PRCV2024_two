@@ -7,8 +7,8 @@ from skimage import exposure, filters
 from skimage.filters import gaussian
 
 # 数据集路径和保存处理后图像的路径
-dataset_dir = "./image_raw"
-output_dir = "./image_reverse"
+dataset_dir = "image_raw"
+output_dir = "image_reverse"
 
 # 确保保存处理后图像的路径存在
 os.makedirs(output_dir, exist_ok=True)
